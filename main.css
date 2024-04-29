@@ -1,7 +1,7 @@
 #home-button{
     text-align: -webkit-right;
     font-family: 'Open Sans', sans-serif;
-}
+    }
 
 .mid-section{
     display: flex;
@@ -11,12 +11,12 @@
     justify-content: center;
     align-items: center;
 
-}
+    }
 
 .nav{
     display: flex;
     justify-content: space-evenly;
-}
+    }
 
 
 .mid-section > p{
@@ -26,16 +26,70 @@
     padding: 25px;
     font-weight: 400;
     line-height: 24px;
-}
+    }
 .hero-section{
+
     display: flex;
     justify-content: space-evenly;
-    padding-top: 90px;
-}
+
+    }
 
 .hero-section> div > h1{
     color: #4d4d4d;
     font-weight: bolder;
     font-size: 45px;
+    }
 
+
+
+#Our-client-heading{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #4D4D4D;
+    }
+
+#client-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    color: #717171;
+    display:flex;
+    }
+
+.clients-logos  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
 }
+
+.our-community-section-title{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#manage-your-community{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    align-content: center;
+    color:#4D4D4D;
+    display: flex;
+    justify-content: center;
+}
+
+.our-community-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    display: flex;
+}
+
