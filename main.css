@@ -13,7 +13,7 @@
 
     }
 
-.nav{
+.nav, .client  .section-Title {
     display: flex;
     justify-content: space-evenly;
     }
@@ -28,10 +28,8 @@
     line-height: 24px;
     }
 .hero-section{
-
     display: flex;
     justify-content: space-evenly;
-
     }
 
 .hero-section> div > h1{
@@ -40,17 +38,13 @@
     font-size: 45px;
     }
 
-
-
-#Our-client-heading{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    display:flex;
+.Our-clients .description .section-Title{
+    display: flex;
     align-items: center;
     justify-content: center;
-    color: #4D4D4D;
-    }
+    float: right;
+}
+
 
 #client-description{
     font-weight: 400;
@@ -59,27 +53,26 @@
     justify-content: center;
     color: #717171;
     display:flex;
+    height: 24px
     }
 
 .clients-logos  {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 80px;
-    margin-right: 80px;
-    align-items: center;
+    height: 80px;
+    width: 1240px;
 }
 
 .our-community-section-title{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 #manage-your-community{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 36px;
     line-height: 44px;
-    align-items: center;
-    align-content: center;
     color:#4D4D4D;
     display: flex;
     justify-content: center;
@@ -91,5 +84,18 @@
     line-height: 24px;
     color: #717171;
     display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
+.community{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+#who-is-next-cent{
+    width: 980px;
+    height: 24px;
+    justify-content: center;
+}
