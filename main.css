@@ -59,23 +59,19 @@
 .clients-logos  {
     display: flex;
     justify-content: space-evenly;
-    height: 80px;
-    width: 1240px;
 }
 
-.our-community-section-title{
-    padding-left: 20px;
-    padding-right: 20px;
 
-}
-
-#manage-your-community{
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    color:#4D4D4D;
+.manage-your-community{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.manage-your-community > p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 .our-community-description{
@@ -98,4 +94,108 @@
     width: 980px;
     height: 24px;
     justify-content: center;
+}
+
+.Our-client-heading{
+    text-align: center;
+}
+
+.new{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer-sider{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.footer-sider > p{
+    display: block;
+}
+input::placeholder{
+    color: white;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    background: #515b60;
+}
+.image{
+    position: relative;
+    left: 205px;
+    top: -27px;
+}
+.member2{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.section3{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+.footer{
+    background: #263238;
+    padding: 4% 0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+
+}
+.section2{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+.section4{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+@media only screen and (max-width: 728px) {
+    .nav {
+        display: none;
+    }
+
+    .hero-section > img {
+        display: none;
+    }
+
+    .member2 {
+        flex-direction: column;
+    }
+
+    .section3 {
+        flex-direction: column;
+    }
+
+    .section2 > img {
+        display: none;
+    }
+
+    .section4 > img {
+        display: none;
+    }
+
+    .footer-sider {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .input {
+        width: 70%;
+    }
+
+    .image {
+        left: -31px;
+        top: 4px;
+    }
 }
